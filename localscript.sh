@@ -12,3 +12,6 @@ chmod +x ./aws-iam-authenticator
 sudo mv ./aws-iam-authenticator /bin
 aws-iam-authenticator version 
 
+# Install awscli 
+sudo yum install awscli -y 
+
