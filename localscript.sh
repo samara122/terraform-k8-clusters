@@ -2,7 +2,8 @@
 
 # tfenv install 
 git clone --depth=1 https://github.com/tfutils/tfenv.git ~/.tfenv
-echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.bash_profile
+sudo echo 'export PATH="$HOME/.tfenv/bin:$PATH"' >> ~/.bash_profile
+
 
 # Install kubectl
 curl -LO https://dl.k8s.io/release/v1.24.0/bin/linux/amd64/kubectl
